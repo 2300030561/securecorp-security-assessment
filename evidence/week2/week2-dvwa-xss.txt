@@ -1,0 +1,6 @@
+DVWA Reflected XSS
+Target: 10.138.2.171
+Source: 10.138.2.154
+Payload: <script>alert('XSS')</script>
+Result: JavaScript alert popup displayed successfully
+Detection: Manual (Wazuh investigation pending)

