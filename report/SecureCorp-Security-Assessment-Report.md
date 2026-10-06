@@ -197,66 +197,33 @@ The final assessment report consolidates the scope, assets, risks, attack findin
 ---
 
 
-### 6.6 SSH Authentication Testing
-
-**Attack ID:** T2.8  
-**Target:** Metasploitable2  
-**Affected Service:** SSH  
-**Evidence:** `evidence/week2/week2-ssh-auth-evidence.txt`  
-**Attack Demonstrated:** Controlled authentication testing was performed against the SSH service in the authorized lab environment.  
-**Impact:** Weak SSH authentication controls may allow unauthorized remote access to the target system.  
-**Risk Rating:** High  
-**Detection:** Wazuh detection status is pending documented Week 3 evidence.  
-**Recommendation:** Enforce strong authentication, disable unnecessary accounts, use key-based authentication where appropriate, apply rate limiting, and monitor repeated SSH authentication failures.
-
----
-
-EOFcat >> report/SecureCorp-Security-Assessment-Report.md <<'EOF'
-
-### 6.6 SSH Authentication Testing
-
-**Attack ID:** T2.8  
-**Target:** Metasploitable2  
-**Affected Service:** SSH  
-**Evidence:** `evidence/week2/week2-ssh-auth-evidence.txt`  
-**Attack Demonstrated:** Controlled authentication testing was performed against the SSH service in the authorized lab environment.  
-**Impact:** Weak SSH authentication controls may allow unauthorized remote access to the target system.  
-**Risk Rating:** High  
-**Detection:** Wazuh detection status is pending documented Week 3 evidence.  
-**Recommendation:** Enforce strong authentication, disable unnecessary accounts, use key-based authentication where appropriate, apply rate limiting, and monitor repeated SSH authentication failures.
-
----
-
-EOFcat >> report/SecureCorp-Security-Assessment-Report.md <<'EOF'
-
 ### 6.5 FTP Authentication Testing
 
-**Attack ID:** T2.7  
-**Target:** Metasploitable2  
-**Affected Service:** FTP  
-**Evidence:** `evidence/week2/week2-ftp-hydra.txt`  
-**Attack Demonstrated:** Controlled authentication testing was performed against the FTP service in the authorized lab environment.  
-**Impact:** Weak FTP authentication controls may allow unauthorized access to the file-transfer service and potentially expose or modify accessible files.  
-**Risk Rating:** High  
-**Detection:** Wazuh detection status is pending documented Week 3 evidence.  
+**Attack ID:** T2.7
+**Target:** Metasploitable2
+**Affected Service:** FTP
+**Evidence:** `evidence/week2/week2-ftp-hydra.txt`
+**Attack Demonstrated:** Controlled authentication testing was performed against the FTP service in the authorized lab environment.
+**Impact:** Weak FTP authentication controls may allow unauthorized access to the file-transfer service and potentially expose or modify accessible files.
+**Risk Rating:** High
+**Detection:** Wazuh detection status is pending documented Week 3 evidence.
 **Recommendation:** Disable unnecessary FTP services, prefer secure file-transfer protocols, enforce strong passwords and rate limiting, and monitor repeated authentication failures.
 
 ---
 
-EOFcat >> report/SecureCorp-Security-Assessment-Report.md <<'EOF'
-
 ### 6.6 SSH Authentication Testing
 
-**Attack ID:** T2.8  
-**Target:** Metasploitable2  
-**Affected Service:** SSH  
-**Evidence:** `evidence/week2/week2-ssh-auth-evidence.txt`  
-**Attack Demonstrated:** Controlled authentication testing was performed against the SSH service in the authorized lab environment.  
-**Impact:** Weak SSH authentication controls may allow unauthorized remote access to the target system.  
-**Risk Rating:** High  
-**Detection:** Wazuh detection status is pending documented Week 3 evidence.  
-**Recommendation:** Enforce strong authentication, disable unnecessary accounts, use key-based authentication where appropriate, apply rate limiting, and monitor repeated SSH authentication failures
-cat >> report/SecureCorp-Security-Assessment-Report.md <<'EOF'
+**Attack ID:** T2.8
+**Target:** Metasploitable2
+**Affected Service:** SSH
+**Evidence:** `evidence/week2/week2-ssh-auth-evidence.txt`
+**Attack Demonstrated:** Controlled authentication testing was performed against the SSH service in the authorized lab environment.
+**Impact:** Weak SSH authentication controls may allow unauthorized remote access to the target system.
+**Risk Rating:** High
+**Detection:** Wazuh detection status is pending documented Week 3 evidence.
+**Recommendation:** Enforce strong authentication, disable unnecessary accounts, use key-based authentication where appropriate, apply rate limiting, and monitor repeated SSH authentication failures.
+
+---
 
 ## 7. Detection Coverage, Investigation Notes & Incident Timeline
 
